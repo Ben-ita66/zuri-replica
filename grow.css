@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    min-width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(255,253,245);
+    display: flex;
+    position: fixed;
+    overflow: hidden;
+}
+
+.box-1{
+    width: 92%;
+    margin: auto;
+}
+.box-2{
+    margin: auto;
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.box-3{
+    display: flex;
+    align-items: center;
+}
+
+.about, .why, .faqs{
+    margin-right: 6rem;
+    display: flex;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 18px;
+    color:#585757;
+    padding: 6px 8px;
+    vertical-align: middle;
+    font-weight: 400;
+}
+button.now{
+    width: 150px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: rgb(231,51,43);
+    border: 1px solid rgb(231,51,43);
+    border-radius: 20px;
+    padding: 5px;
+    height: 40px;
+}
+
+.thumbs{
+    border: 5px solid rgb(231,51,43);
+    background-color: rgb(255,253,245);
+    border-radius: 50px;
+    position: absolute;
+    right: 180px;
+    top: 45px;
+}
+
+.css-box{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -16px;
+    width: calc(100% + 16px);
+    margin-left: -16px;
+    background-color: rgb(255,253,245);
+}
+.css-box2{
+    flex-direction: row;
+    padding-left: 16px;
+    padding-top: 16px;
+    max-width: 25%;
+    align-items: center;
+    display: flex;
+}
+
+.write-up{
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+    padding-left: 16px;
+    padding-top: 16px;
+
+
+}
+p.ended{
+    padding-top: 200px;
+    color: #e7332b;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: baseline;
+    line-height: 23px;
+}
+.gain{
+    font-size: 60px;
+    color: #1B1A20;
+    font-weight: 700;
+     padding:10px 0 0;
+     line-height: 54px;
+}
+.lady1{
+    padding-top: 300px;
+}
+p.basic{
+    font-size: 18px;
+    color: #1b1a20;
+    font-style: normal!important;
+    font-weight: 400;
+    line-height: 130%!important;
+    margin: auto!important;
+    padding-bottom: 40px!important;
+    text-align: center;
+    width: 68%!important;
+
+}
+.roll{
+    background: #e7332b;
+    border-radius: 71px;
+    box-shadow: none;
+    color: #ffffff;
+    padding: 10px 32px;
+    text-transform: none;
+    border: none;
+}
+
+.line3 {
+    margin-left: 33px;
+    margin-top: -144px;
+    max-width: 1440px;
+    position: absolute;
+    left: 23%;
+    width: 54px;
+}
+
+.male1{
+    width: 250px;
+    padding-left: 16px;
+    padding-top: 16px;
+
+    
+}
+.root-2{
+    margin: auto;
+    width: 90%;
+    max-width: 1440px;
+    padding-top: 49px;
+
+}
+.contain{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -16px;
+    width: calc(100% + 16px);
+    margin-left: -16px;
+}
+.contain-1{
+    padding-left: 16px;
+    padding-top: 16px;
+    align-items: center;
+    display: flex;
+}
+.ingressive{
+    color: #1b1a20;
+    font-size: 24px!important;
+    font-weight: 600;
+    padding-top: 0;
+    text-align: inherit;
+    width: 40%;
+}
